@@ -1,0 +1,98 @@
+START
+0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6  7  8  9
+
+Text River Format (TR format)
+
+0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6  7  8  9
+-
+0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6  7  8  9
+FLOW
+
+flow 1 (id: 1)
+1)
+
+flow 1) (id: 11)
+1)
+
+flow 1) (id: 111)
+1) component_1
+2)
+
+flow 2) (id: 1112F1)
+1)
+2)
+3)
+
+flow 2) (id: 1112F2)
+1)
+
+flow 2) (id: 1112F12F1)
+1)
+
+flow 2) (id: 1112F12F2)
+1) component_2
+
+flow 2) (id: 1112F12F3)
+1)
+
+0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6  7  8  9
+-
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+DATA MOVEMENT
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+-
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+DATA STATE
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+-
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+COMPONENTS
+
+/flow number - components name
+intro:
+
+responsibility:
+
+boundary:
+
+capability:
+
+constraint:
+
+data:
+
+interface:
+
+
+/111 - component_1
+intro:
+
+responsibility:
+
+boundary:
+
+capability:
+
+constraint:
+
+data:
+
+interface:
+
+/1112F12F2 - component_2
+intro:
+
+responsibility:
+
+boundary:
+
+capability:
+
+constraint:
+
+data:
+
+interface:
+
+0   1   2   3   4   5   6   7   8   9   0   1   2   3   4   5   6   7   8   9
+END
